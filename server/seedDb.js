@@ -15,8 +15,8 @@ db.Museum.create({
     creator: {
       name: 'Leonardo da Vinci',
       image: 'http://www.leonardodavinci.net/images/leonardo-da-vinci.jpg',
-      birthyear: 1452,
-      deathyear: 1519
+      birthyear: '1452',
+      deathyear: '1519'
     }
   })
   .then(result => {
